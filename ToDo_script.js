@@ -6,6 +6,7 @@ curDate.innerHTML = today.toLocaleDateString("en-US", dateFormat);
 const form = document.querySelector("#task-list");
 const clear = document.getElementById("clear");
 const delTick = document.querySelector("ul");
+const inpClear = document.getElementById("item-name");
 
 const submit = (event) => {
   event.preventDefault();
@@ -28,6 +29,7 @@ const addItemToTaskList = (item) => {
 };
 
 const clearList = () => {
+  inpClear.value = "";
   document.querySelector("ul").innerHTML = "";
   //   console.log("clearList");
 };

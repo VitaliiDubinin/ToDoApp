@@ -31,7 +31,7 @@ section,
 }
 
 .dataPict {
-  background-image: url("/spring.png");
+  background-image: url("spring.png");
   /* background-color: rgb(111, 224, 224); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
